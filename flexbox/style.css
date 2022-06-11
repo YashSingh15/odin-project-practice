@@ -1,0 +1,28 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    border: 2px solid black;
+    background-color: skyblue;
+}
+
+.item {
+    height: auto;
+    width: 100px;
+    min-width: 0px;
+    background-color: green;
+    border: 2px solid blue;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.item-content {
+    width: 150px;
+    text-align: center;
+    font-size: 60px;
+}
